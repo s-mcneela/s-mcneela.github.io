@@ -1,0 +1,27 @@
+.Main {
+  color: white;
+  display: flex;
+  flex-direction: row;
+
+}
+.Heading {
+  color: rgb(78, 158, 250);
+}
+
+.IntroBlurb {
+  background: black;
+  border: 2px solid rgb(75, 183, 255);
+  box-shadow: 4px 4px 3px rgba(0, 195, 255, 0.589);
+  padding: 10px;
+  margin: 20px;
+  width: 50vw;
+}
+
+.CTA {
+  background: black;
+  border: 2px solid rgb(75, 183, 255);
+  box-shadow: 4px 4px 3px rgba(253, 221, 78, 0.589);
+  padding: 10px;
+  margin: 20px;
+  width: 50vw;
+}

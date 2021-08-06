@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.nav_link_list {  
+  list-style-type: none;
+  height: 100%;
+  width: 100%;
+}
+
+.nav_link_list a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav_link{
+  height: 100%;
+  width: 100%;
+  padding: 0px 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Active {
+  color: rgb(255, 255, 255);
+  background: rgb(49, 5, 43);
+}
+
+@media (max-width: 530px) {
+
+  .nav_link_list {
+    width: 100%;
+    height: 45px;
+  }
+}
+

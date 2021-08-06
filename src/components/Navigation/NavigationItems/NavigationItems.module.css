@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.navLinks {
+  width: 500px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to top, rgb(100, 13, 35), rgb(5, 6, 83));}
+
+.navLinks div {
+  display: flex;
+  height: 100%;
+  background: black;
+  
+}
+.navLinks div:hover {
+  background-color: rgb(28, 34, 47);
+  width: 160px;
+}
+.navLinks p {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0;
+  margin: auto 5px;
+  
+}
+
+.LinkTab {
+  color: rgb(89, 180, 255);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.Home {
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 530px) {
+  .navLinks {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+}

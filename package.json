@@ -1,8 +1,8 @@
 {
   "name": "s-mcneela.github.io",
   "version": "0.1.0",
-  "homepage": "https://github.com/s-mcneela/s-mcneela.github.io",
-  "private": true,
+  "homepage": "https://github.com/s-mcneela.github.io/",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",

@@ -1,5 +1,4 @@
 import './App.css';
-import PageHeader from './containers/PageHeader/PageHeader';
 import HomePage from './containers/HomePage/HomePage';
 import {Route, Switch} from 'react-router-dom';
 import Background from './components/UI/Background/Background';
@@ -7,7 +6,7 @@ import Aux from './hoc/Aux';
 function App() {
   return (
     <Aux>
-      <body>
+      
         <Background>
           <Switch>
 
@@ -18,7 +17,7 @@ function App() {
           </Switch>
         </Background>
 
-      </body>
+      
     </Aux>
     
   );

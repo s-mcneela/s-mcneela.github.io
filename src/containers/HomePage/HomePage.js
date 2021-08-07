@@ -4,34 +4,66 @@ import React, {Component} from 'react';
 import PageHeader from '../PageHeader/PageHeader';
 import Aux from '../../hoc/Aux';
 import classes from './HomePage.module.css';
+import ContactTag from '../../components/UI/ContactTag/ContactTag';
 
 
 
 class HomePage extends Component {
   state = {
-    entered: false,
+    showBackdrop: false,
   }
 
-  enter = () => {
-    this.setState(state => 
-      {
-        return {
-          ...state,
-          entered: true,
-        }
-      });
+  componentDidMount() {
+    //must add event listeners after all the DOM elements are mounted
+    const intro_blurb = document.getElementById('intro_blurb');
+    intro_blurb.addEventListener('mouseenter', e => {
+      this.onObjEnter(intro_blurb);
+    });
+    intro_blurb.addEventListener('mouseleave', e => {
+      this.onObjExit(intro_blurb);
+    });
+    const cta = document.getElementById('CTA');
+    cta.addEventListener('mouseenter', e => {
+      this.onObjEnter(cta);
+    });
+    cta.addEventListener('mouseleave', e => {
+      this.onObjExit(cta);
+    });
   }
 
+  onObjEnter = (obj) => {
+    obj.style.zIndex = 3;
+    this.setState(state => {
+      return {
+        ...state,
+        showBackdrop: true,
+      }
+    });
+  }
+  onObjExit = (obj) => {
+    obj.style.zIndex = 1;
+    this.setState(state => {
+      return {
+        ...state,
+        showBackdrop: false,
+      }
+    });
+  }
   render(){
+    
+      
     return (
       <Aux>
-        <PageHeader />
+        <PageHeader/>
+        <div className={classes.TopPageFiller} ></div>
         <div className={classes.Heading}>
-          <h1>Hello and Welcome</h1>
+          <h1>Welcome!</h1>
         </div>
         <div className={classes.Main}>
+          
+          {this.state.showBackdrop? <div id="backdrop" className={classes.Backdrop} > </div> : null}
          
-          <div className = {classes.IntroBlurb}>
+          <div id="intro_blurb" className = {classes.IntroBlurb}>
             
             <div>
               <h2>My name is Stephen</h2>
@@ -44,7 +76,7 @@ class HomePage extends Component {
             </div>
             
           </div>
-          <div className={classes.CTA}>
+          <div id="CTA" className={classes.CTA}>
             <p>
               Please feel free to browse the site and look at some
               of the projects I've worked on (this site is one of them!).
@@ -56,9 +88,9 @@ class HomePage extends Component {
               saved me a lot of time when I was first learning!
             </p>
           </div>
-       
-        
         </div>
+        <ContactTag />
+        <div className={classes.PageFiller}> </div>
 
       </Aux>
     )

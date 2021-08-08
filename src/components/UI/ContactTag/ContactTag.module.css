@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
+* {
+  box-sizing: border-box;
+}
 
 .ContactTag {
   position: fixed;
@@ -11,4 +14,6 @@
   font-family: 'Work Sans', sans-serif;
   background-color: black;
   padding: 10px;
+  z-index: 5;
+  width: 300px;
 }

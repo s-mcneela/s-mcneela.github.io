@@ -32,10 +32,13 @@
 @media (max-width: 530px) {
 .NavBar {
   display: none;
+ 
 }
 
 .Button {
-  display: inline-block;
+  position: fixed;
+  display: flex;
+  justify-content: center;
   background:rgb(32, 51, 95);
   color: white;
   border: none;

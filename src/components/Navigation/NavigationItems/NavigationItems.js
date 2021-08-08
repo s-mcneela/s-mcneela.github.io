@@ -9,7 +9,8 @@ import classes from './NavigationItems.module.css';
 const navigationItems = (props) => {
   return (
   <Aux>
-   
+   <div className={classes.navLinksContainer}>
+
       <ul className={classes.navLinks}>
         
         <NavigationItem isActive={() => false} link='/'>
@@ -35,6 +36,7 @@ const navigationItems = (props) => {
         </NavigationItem>
       </ul>
   
+   </div>
   </Aux>
   );
 };

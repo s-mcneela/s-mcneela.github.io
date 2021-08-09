@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.eb3615cc.chunk.css",
+    "main.css": "/static/css/main.cbea4528.chunk.css",
     "main.js": "/static/js/main.f7a21227.chunk.js",
     "main.js.map": "/static/js/main.f7a21227.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b20f1f3e.js",
@@ -10,7 +10,7 @@
     "static/js/3.b297ba7c.chunk.js": "/static/js/3.b297ba7c.chunk.js",
     "static/js/3.b297ba7c.chunk.js.map": "/static/js/3.b297ba7c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.eb3615cc.chunk.css.map": "/static/css/main.eb3615cc.chunk.css.map",
+    "static/css/main.cbea4528.chunk.css.map": "/static/css/main.cbea4528.chunk.css.map",
     "static/js/2.778573ee.chunk.js.LICENSE.txt": "/static/js/2.778573ee.chunk.js.LICENSE.txt",
     "static/media/beach-monitor1.27841b5f.png": "/static/media/beach-monitor1.27841b5f.png",
     "static/media/beach-monitor2.45bf8cdb.png": "/static/media/beach-monitor2.45bf8cdb.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.b20f1f3e.js",
     "static/js/2.778573ee.chunk.js",
-    "static/css/main.eb3615cc.chunk.css",
+    "static/css/main.cbea4528.chunk.css",
     "static/js/main.f7a21227.chunk.js"
   ]
 }

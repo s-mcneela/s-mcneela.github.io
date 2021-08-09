@@ -80,7 +80,7 @@ class BlogPage extends Component {
         <div className={classes.Main}> {/*hold list of BlogSummary(s) */}
 
           {this.state.showBackdrop? <div id="backdrop" className={classes.Backdrop} > </div> : null}
-          <BlogPostSummary id="blogPost1" imgSrc={postImage1} title='CSS: Using Nested FlexBoxes' borderColor= {postColor1} />
+          <BlogPostSummary id="blogPost1" imgSrc={postImage1} title='CSS: Using Nested FlexBoxes' borderColor= {postColor1} linkTo='1'/>
           <BlogPostSummary id="blogPost2" imgSrc={postImage2} title="React: When To Turn An Object Into A Reusable Component, and How To Pass Props 'Prop'erly" borderColor={postColor2}/>
         
         </div>

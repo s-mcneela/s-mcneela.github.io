@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+
+.Main {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Work Sans', sans-serif;
+
+}
+.Heading {
+  color: rgb(78, 158, 250);
+  font-family: 'Work Sans', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px;
+  
+}
+.Heading h1 {
+  border: 3px solid rgb(48, 17, 190);
+  background-color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  font-size: 2.1rem;
+  color: white;
+}
+/* keep CSS tags in same order as used in corresponding react page
+   I like to name the container, then name each item in it after underscores..
+   for example, the container could be Intro, then the heading inside that could 
+   be Intro_Heading....each new underscore indicates a deeper layer within that 
+   container*/
+.Image1 {
+  width: 200px;
+  float: right;
+  /* padding: 30px; */
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: 2px solid rgb(0, 167, 218);
+}
+
+.Body {
+  background: black;
+  border: 2px solid rgb(75, 183, 255);
+  box-shadow: 4px 4px 3px rgba(0, 195, 255, 0.589);
+  padding: 20px;
+  margin: 20px;
+  width: 90vw;
+  z-index: 1;
+  font-size: 1.3rem;
+  
+}
+
+.Example1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 3px solid white;
+  padding: 8px;
+  width: 425px;
+}
+.Example1_Box1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Example1_Box2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Example1_Box1_Child1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background: blue;
+  width: 200px;
+  height: 200px;
+}
+
+
+.Example1_Box1_Child2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: rgb(0, 0, 68);
+  width: 200px;
+  height: 200px;
+}
+
+.Example1_Box2_Child1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background: rgb(0, 255, 179);
+  width: 200px;
+  height: 200px;
+}
+.Example1_Box2_Child2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background: rgb(167, 33, 33);
+  width: 200px;
+  height: 200px;
+}
+
+
+
+
+
+.TopPageFiller {
+  height: 40px;
+}
+.PageFiller {
+  height: 400px;
+}
+
+.Backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  
+}
+
+
+@media (max-width: 530px) {
+
+  }

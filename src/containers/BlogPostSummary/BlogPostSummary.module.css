@@ -1,8 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 .Main {
   width: 90vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
   height: 200px;
   background: black;
   box-shadow: 4px 4px 5px rgb(107, 238, 255);
@@ -11,6 +16,14 @@
   border: 3px solid green;
 }
 
+.Title {
+  margin: 15px;
+  margin-left: 20px;
+  font-size: 1.4rem;
+}
+
 .MainImage {
   width: 150px;
+  height: 195px;
+  /* margin-right: 35px; */
 }

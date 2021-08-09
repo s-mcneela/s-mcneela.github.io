@@ -142,4 +142,67 @@
     width: 80vw;
     margin: 15px;
   }
+
+
+  .TrainingSitePic1 {
+    margin: 10px;
+    height: 180px;
+    width: 280px;
+  }
+
+  .TrainingSitePic1:active {
+    position: relative;
+    right: 30px;
+    width: 350px;
+    height: 230px;
+  }
+
+  .TrainingSitePic2 {
+    margin: 10px;
+    width: 203px;
+    height: 362px;
+  }
+  .TrainingSitePic2:active {
+    width: 300px;
+    height: auto;
+    }
+
+  .TrainingSitePic3 {
+    margin: 10px;
+    width: 203px;
+    height: 362px;
+  }
+  .TrainingSitePic3:active {
+    width: 300px;
+    height: auto;
+  }
+
+  .TrainingSitePic4 {
+    margin: 10px;
+    width: 203px;
+    height: 362px;
+  }
+  .TrainingSitePic4:active {
+    width: 300px;
+    height: auto;
+  }
+  .BeachMonitor1 {
+    margin: 10px;
+    height: 142px;
+    width: 249px;
+  }
+  .BeachMonitor1:active {
+    width: 350px;
+    height: auto;
+  }
+  .BeachMonitor2 {
+    margin: 10px;
+    height: 142px;
+    width: 249px;
+  }
+  .BeachMonitor2:active {
+    width: 350px;
+    height: auto;
+  }
+
   }

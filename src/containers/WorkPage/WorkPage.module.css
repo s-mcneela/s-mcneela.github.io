@@ -1,6 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
+.TrainingSitePic1 {
+  width: 120px;
+  margin: 20px;
+}
 
+.TrainingSitePic1:active {
+  width: 1000px;
+}
+
+.TrainingSitePic2 {
+  width: 120px;
+  margin: 20px;
+}
+.TrainingSitePic2:active {
+  width: 450px;
+}
+
+.TrainingSitePic3 {
+  margin: 20px;
+  width: 120px;
+}
+.TrainingSitePic3:active {
+  width: 450px; 
+}
+
+.TrainingSitePic4 {
+  margin: 20px;
+  width: 120px;
+}
+.TrainingSitePic4:active {
+  width: 450px;
+  /* position: fixed; */
+  /* left: 10px;
+  top: 200px;
+   */
+
+
+}
+
+.BeachMonitor1 {
+  margin: 20px;
+  width: 120px;
+}
+.BeachMonitor1:active {
+  width: 750px;
+}
+.BeachMonitor2 {
+  margin: 20px;
+  width: 120px;
+}
+.BeachMonitor2:active {
+  width: 750px;
+}
+
+.LeftImageContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
 
 .Main {
   color: white;

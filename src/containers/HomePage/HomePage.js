@@ -5,6 +5,7 @@ import PageHeader from '../PageHeader/PageHeader';
 import Aux from '../../hoc/Aux';
 import classes from './HomePage.module.css';
 import ContactTag from '../../components/UI/ContactTag/ContactTag';
+import {isBrowser} from 'react-device-detect';
 
 
 
@@ -16,19 +17,22 @@ class HomePage extends Component {
   componentDidMount() {
     //must add event listeners after all the DOM elements are mounted
     const intro_blurb = document.getElementById('intro_blurb');
-    intro_blurb.addEventListener('mouseenter', e => {
-      this.onObjEnter(intro_blurb);
-    });
-    intro_blurb.addEventListener('mouseleave', e => {
-      this.onObjExit(intro_blurb);
-    });
-    const cta = document.getElementById('CTA');
-    cta.addEventListener('mouseenter', e => {
-      this.onObjEnter(cta);
-    });
-    cta.addEventListener('mouseleave', e => {
-      this.onObjExit(cta);
-    });
+    if(isBrowser){
+
+      intro_blurb.addEventListener('mouseenter', e => {
+        this.onObjEnter(intro_blurb);
+      });
+      intro_blurb.addEventListener('mouseleave', e => {
+        this.onObjExit(intro_blurb);
+      });
+      const cta = document.getElementById('CTA');
+      cta.addEventListener('mouseenter', e => {
+        this.onObjEnter(cta);
+      });
+      cta.addEventListener('mouseleave', e => {
+        this.onObjExit(cta);
+      });
+    }
   }
 
   onObjEnter = (obj) => {

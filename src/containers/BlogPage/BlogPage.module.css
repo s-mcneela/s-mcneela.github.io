@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+.Intro {
+  background: rgb(14, 18, 80);
+  color: white;
+  padding: 10px 20px;
+  margin: 20px 10px;
+  font: 1.1rem;
+  font-family: 'Work Sans', sans-serif;
+  border: 4px solid black;
+}
+
+.HorizontalBar {
+  height: 10px;
+  background: rgb(0, 32, 73);
+  margin: 40px 50px;
+  margin-top: 10px;
+}
+
+.Intro p{
+  margin: 0;
+}
+
+
+
+.Main {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Work Sans', sans-serif;
+
+}
+.Heading {
+  color: rgb(78, 158, 250);
+  font-family: 'Work Sans', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px;
+  
+}
+.Heading h1 {
+  border: 3px solid rgb(68, 202, 255);
+  background-color: rgb(25, 9, 54);
+  padding: 5px 10px;
+  font-size: 2.5rem;
+
+}
+
+.TopPageFiller {
+  height: 40px;
+}
+.PageFiller {
+  height: 400px;
+}
+
+.Backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  
+}
+
+
+@media (max-width: 530px) {
+
+
+  }

@@ -70,11 +70,14 @@ class HomePage extends Component {
           <div id="intro_blurb" className = {classes.IntroBlurb}>
             
             <div>
-              <h2>My name is Stephen</h2>
+              <h2>This is a portfolio site and blog from yours truly, Stephen McNeela</h2>
               <p>
-                I have a degree in Mechanical Engineering with training in software and math.
+                I recently graudated with a degree in Mechanical Engineering and Minor in Math. A few years ago I also
+                became interested in coding, and took several computer science courses to boost my skills there, in addition
+                to working on my own projects.
                 I like to dabble in various computer science 
-                topics, most recently API development and mathematical/statistical programming.
+                topics and expand my knowledge whenever possible. Most recently I've been doing lots of API development 
+                and User Interface design, as well as diving into topics in Machine Learning.
               </p>
               
             </div>
@@ -84,12 +87,16 @@ class HomePage extends Component {
             <p>
               Please feel free to browse the site and look at some
               of the projects I've worked on (this site is one of them!).
+              I built this site from scratch (using React as a framework, of course).
+              The User Interface design is my own, styled with pure CSS (no CSS libraries)
+              ...I find this approach provides the most control when building interfaces.  
              
             </p>
             <p> 
               Be sure to check out the blog section, where I give some helpful
               tips on JavaScript, React, Django, and CSS....things that would've 
-              saved me a lot of time when I was first learning!
+              saved me a lot of time when I first started programming. I hope they help 
+              anyone who is in the process of learning to code. 
             </p>
           </div>
         </div>

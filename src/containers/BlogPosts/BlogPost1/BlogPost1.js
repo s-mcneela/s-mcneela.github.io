@@ -33,7 +33,7 @@ class BlogPost1 extends Component {
             <h2>Nested FlexBoxes allow you to make complex layouts in a grid-like fashion 
               without using CSS grid. 
             </h2>
-            <img src={postImage1} className={classes.Image1}/>
+            <img id="image1" src={postImage1} className={classes.Image1} />
             <p>
               CSS grid is a great choice but is generally more complicated to set up 
               than flexbox, and more rigid (less responsive in that there is no element wrapping ability).
@@ -72,12 +72,12 @@ class BlogPost1 extends Component {
             <p>
               The HTML could look something like the following:
             </p>
-            <img src={htmlImage1} />
+            <img id="htmlImage1" src={htmlImage1} className={classes.HtmlImage1} />
             <p>
               While the CSS would be something like:
             </p>
-            <img src={cssImage1} />
-            <img src={cssImage2} />
+            <img id="cssImage1" src={cssImage1} className={classes.CssImage1} />
+            <img id="cssImage2" src={cssImage2} className={classes.CssImage2} />
 
             
           </div>

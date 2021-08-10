@@ -28,8 +28,12 @@
   display: flex;
   flex-direction: column;
   font-family: 'Work Sans', sans-serif;
-
 }
+
+.Main a{
+  text-decoration: none;
+}
+
 .Heading {
   color: rgb(78, 158, 250);
   font-family: 'Work Sans', sans-serif;

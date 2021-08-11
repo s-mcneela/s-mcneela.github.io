@@ -70,7 +70,12 @@ class HomePage extends Component {
           <div id="intro_blurb" className = {classes.IntroBlurb}>
             
             <div>
-              <h2>This is a portfolio site and blog from yours truly, Stephen McNeela</h2>
+              <h2>
+                Hi, my name is Stephen! This is my personal portfolio site and blog. 
+                If you're interested in learning more about how I designed and built this site,
+                feel free to email me at stephen.mcneela1@gmail.com 
+
+              </h2>
               <p>
                 I recently graudated with a degree in Mechanical Engineering and Minor in Math. A few years ago I also
                 became interested in coding, and took several computer science courses to boost my skills there, in addition

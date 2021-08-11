@@ -72,10 +72,13 @@ class HomePage extends Component {
             <div>
               <h2>
                 Hi, my name is Stephen! This is my personal portfolio site and blog. 
+              </h2>
+              <p>
+
                 If you're interested in learning more about how I designed and built this site,
                 feel free to email me at stephen.mcneela1@gmail.com 
+              </p>
 
-              </h2>
               <p>
                 I recently graudated with a degree in Mechanical Engineering and Minor in Math. A few years ago I also
                 became interested in coding, and took several computer science courses to boost my skills there, in addition

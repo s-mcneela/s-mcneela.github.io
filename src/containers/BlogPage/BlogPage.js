@@ -10,8 +10,10 @@ import {isBrowser} from 'react-device-detect';
 
 let postImage1 = 'postimage1.jpg';//must be path from BlogPostSummary Component where it will be rendered, NOT this component
 let postImage2 = 'postimage2.jpg';
+let postImage3 = 'postimage3.jpg';
 let postColor1 = 'rgb(255, 97, 6)';
 let postColor2 = 'white';
+let postColor3 = 'rgb(69, 81, 245)';
 
 class BlogPage extends Component {
   state = {
@@ -82,7 +84,8 @@ class BlogPage extends Component {
           {this.state.showBackdrop? <div id="backdrop" className={classes.Backdrop} > </div> : null}
           <BlogPostSummary id="blogPost1" imgSrc={postImage1} title='CSS: Using Nested FlexBoxes' borderColor= {postColor1} linkTo='1'/>
           <BlogPostSummary id="blogPost2" imgSrc={postImage2} title="React: When To Turn An Object Into A Reusable Component, and How To Pass Props 'Prop'erly" borderColor={postColor2} linkTo='2'/>
-        
+          <BlogPostSummary id="blogPost3" imgSrc={postImage3} title="Django Rest Framework: What Are Serializers, Why Are They Necessary, And How Do We Use Them?" borderColor={postColor3} linkTo='3'/>
+
         </div>
 
 
